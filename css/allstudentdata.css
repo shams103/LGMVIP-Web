@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 30px;
+    overflow-x: hidden;
+    color: black;
+    font-family: 'Flamenco', cursive;
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(image/plane.jpg);
+    height: 120vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-pills {
+    display: flex; 
+    /* border: 2px solid rgb(17, 17, 17); */
+    padding: 13px 7px 17px 300px !important;
+    text-align: center;
+    background: #27302a;
+    
+    /* position: fixed; */
+ }
+ .nav-item{
+     flex-direction: column;
+     padding: 11px 14px;
+     margin-left: 70px;
+     /* border: 2px solid green; */
+     list-style-type: none;   
+     
+ }
+ .nav-item a{
+     list-style-type: none;
+     font-size: 1.9rem;
+     /* border: 2px solid red; */
+     text-decoration: none;
+     font-weight: 700;
+     color: #fff;
+ }
+ .nav-item a:hover{
+     color: #fff;
+ }
+ .active{
+     background: green;
+     border-radius: 10px;
+ }
+h3{
+    margin-left: 600px;
+    margin-top: 10px;
+}
+
+
+h2{
+    font-size: 3rem;
+    color: #cc0099;
+    font-weight: 900;
+    padding-left: 5rem;
+    padding-top: 1rem;
+    text-shadow: 2px 2px black;
+}
+/*table Heading*/
+.table{
+    margin-top:25px;
+    margin-left: 50px;
+    background-color: white;
+   
+}
+
+.main-content-header{
+    /* border: 2px solid red; */
+    width: 90vw;
+}
+
+.footer{
+    margin-top: 400px;
+    padding: 24px 0;
+    text-align: center;
+    color: rgba(0,0,0,0.99);
+    background: cyan;
+    font-family: 'Flamenco', cursive;
+    font-size: 18px;
+}

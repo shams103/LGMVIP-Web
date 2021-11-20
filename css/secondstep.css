@@ -1,0 +1,183 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 30px;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Flamenco', cursive;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(image/hand.jpg);
+    /* height:120vh; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* header{
+   
+} */
+.nav-pills{
+    display: flex; 
+    /* border: 2px solid rgb(17, 17, 17); */
+    padding: 13px 7px 17px 300px;
+    text-align: center;
+    background: #27302a;
+    /* position: fixed; */
+ }
+ .nav-item{
+     flex-direction: column;
+     padding: 11px 14px;
+     margin-left: 70px;
+     /* border: 2px solid green; */
+     list-style-type: none;   
+     
+ }
+ .nav-item a{
+     list-style-type: none;
+     font-size: 1.9rem;
+     /* border: 2px solid red; */
+     text-decoration: none;
+     font-weight: 700;
+     color: #fff;
+ }
+ .active{
+     background: green;
+     border-radius: 10px;
+ }
+
+
+
+.table{
+    margin-left:650px;
+}
+.search{
+    margin-left:670px;
+    margin-top:20px;
+}
+.name1{
+    padding-right: 5px;
+}
+.standered1{
+   padding-right: 15px;
+}
+.submit{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(189, 189, 189);
+    margin-top: 2rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.submit:hover{
+    background-color: rgba(0,0,0,0.99);
+    color: #fff;
+}
+.main-content-header{
+    /* border: 2px solid red; */
+    height: 870px;
+}
+h2{
+    margin-top: 15px;
+    margin-bottom:25px;
+    margin-left: 260px;
+    color: yellow;
+    font-weight: bolder;
+    text-shadow: 3px 3px black;
+}
+.table1{
+    margin-left: 200px;
+    margin-top: 5px;
+}
+.table2{
+    margin-left: 280px;
+    margin-top: 15px;
+}
+
+.table3{
+    margin-left: 260px;
+    margin-top: 4px;
+}
+.table3{
+    margin-top: 5px;
+    
+}
+.table4{
+    margin-top: 4px;
+    margin-left: 200px;
+}
+.h3{
+    font-size: 3rem;
+    margin-left: 370px;
+    margin-top: 5px;
+}
+.h_3{
+    font-size: 3rem;
+    margin-left: 370px;
+    margin-top: 35px;
+}
+table th{
+    font-size: 1.4rem;
+}
+table input{
+    font-size: 1.3rem;
+    padding: 6px;
+    
+}
+p{
+    margin-left: 375px;
+}
+h4{
+    margin-left: 285px;
+}
+.colorchange1{
+    animation: colorchange1 2s infinite;
+    margin-left: 35px;
+}
+@keyframes colorchange1{
+    0%{color:#fff;}
+    25%{color:#bf55ec;}
+    75%{color:#fff;}
+    100%{color:#bf55ec;}
+}
+.colorchange2{
+    animation: colorchange2 2s infinite;
+    margin-left: 35px;
+}
+@keyframes colorchange2{
+    0%{color:#fff;}
+    25%{color:red;}
+    75%{color:blue;}
+    100%{color:orange;}
+}
+.colorchange3{
+    animation: colorchange3 2s infinite;
+    margin-left: 35px;
+}
+@keyframes colorchange3{
+    0%{color:#fff;}
+    25%{color:#bf55ec;}
+    75%{color:#fff;}
+    100%{color:#bf55ec;}
+}
+.class{
+    margin-left: 9px;
+    background:transparent;
+    color:white;
+    text-align: center;
+}
+.rollno{
+    margin-left: 5px;
+    background:transparent;
+    color:white;
+    text-align: center;
+}
+.footer{
+    margin-top: 400px;
+    padding: 24px 0;
+    text-align: center;
+    color: rgba(0,0,0,0.99);
+    background: cyan;
+    font-family: 'Flamenco', cursive;
+    font-size: 18px;
+}
