@@ -1,0 +1,79 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 30px;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Flamenco', cursive;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(image/books.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:160vh;
+}
+.nav-pills{
+    display: flex; 
+    /* border: 2px solid rgb(17, 17, 17); */
+    padding: 13px 7px 17px 710px;
+    text-align: center;
+    background: #27302a;
+    /* position: fixed; */
+ }
+ .nav-item{
+     flex-direction: column;
+     padding: 11px 14px;
+     margin-left: 70px;
+     /* border: 2px solid green; */
+     list-style-type: none;   
+     
+ }
+ .nav-item a{
+     list-style-type: none;
+     font-size: 1.9rem;
+     /* border: 2px solid red; */
+     text-decoration: none;
+     font-weight: 700;
+     color: #fff;
+ }
+ .active{
+     background: green;
+     border-radius: 10px;
+ }
+
+h1{
+    margin-left: 430px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    text-shadow:  #000 0px 0px 3px,   #000 0px 0px 3px,   #000 0px 0px 5px;
+}
+h3{
+    margin-bottom: 1rem;
+    margin-left: 450px;
+    margin-top: 10px;
+}
+
+.main-content-header a{
+    text-decoration: none;
+    color: black;   
+    text-shadow:  #ff0066 0px 0px 1px,   #ff0066 0px 0px 1px,   #ff0066 0px 0px 1px;
+}
+.main-content-header a:hover{
+    text-decoration: none;
+    text-decoration: none;
+    color: yellow;   
+    text-shadow:  #000 0px 0px 2px,   #000 0px 0px 2px,   #000 0px 0px 2px;
+
+}
+
+.footer{
+    margin-top: 400px;
+    padding: 24px 0;
+    text-align: center;
+    color: rgba(0,0,0,0.99);
+    background: cyan;
+    font-family: 'Flamenco', cursive;
+    font-size: 18px;
+}
+

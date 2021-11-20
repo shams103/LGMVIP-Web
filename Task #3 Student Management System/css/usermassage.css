@@ -1,0 +1,143 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    /* font-size: 30px; */
+    /* overflow-x: hidden; */
+    color: white;
+    font-family: 'Flamenco', cursive;
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(image/pencils.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-pills{
+    display: flex; 
+    padding: 13px 7px 13px 550px;
+    text-align: center;
+    background: #27302a;
+ }
+ .nav-item{
+     flex-direction: column;
+     padding: 11px 14px;
+     margin-left: 70px;
+     list-style-type: none;   
+     
+ }
+ .nav-item a{
+     list-style-type: none;
+     font-size: 1.9rem;
+     text-decoration: none;
+     font-weight: 700;
+     color: #fff;
+ }
+ .active{
+     background: green;
+     border-radius: 10px;
+ }
+
+
+/*table Heading*/
+table{
+    margin-top:25px;
+    background-color: white;
+}
+.massage_h1{
+    font-size: 1.5rem;
+    padding-left: 15px;
+    font-size: 20px;
+    color: #ff0066;
+    border-top: 3px solid black;    
+}
+.id_h1{
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    color: #ff0066;
+    border-top: 3px solid black;
+}
+.name_h1{
+    font-size: 1.5rem;
+    padding-left: 15px;
+    font-size: 20px;
+    color: #ff0066;
+    border-top: 3px solid black;
+}
+.email_h1{
+    font-size: 1.5rem;
+    padding-left: 55px;
+    font-size: 20px;
+    color: #ff0066;
+    border-top: 3px solid black;
+    
+}
+.contact_h1{
+    font-size: 1.5rem;
+    padding-left: 55px;
+    padding-right: 20px;
+    font-size: 20px;
+    color: #ff0066;
+    border-top: 3px solid black;
+}
+
+/*/////Inner Table Heading/////*/
+th{
+    padding-left: 100px;
+    
+    border-bottom: 3px solid black;
+    
+    border-right: 3px solid black;
+}
+
+.massage_h{
+    color: black;
+    font-size: 1.5rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-right: 3px solid black;
+    padding-right: 35px;   
+    padding-left: 35px;
+    
+}
+.id_h{
+    color: black;
+    font-size: 1.5rem;
+    padding-left: 10px;
+    border-right: 3px solid black;
+    padding-right: 15px;
+}
+.name_h{
+    color: black;
+    font-size: 1.5rem;
+    padding-left: 15px;
+    border-right: 3px solid black;
+    padding-right: 35px;
+}
+.email_h{
+    color: black;
+    font-size: 1.5rem;
+    padding-left: 55px;
+    border-right: 3px solid black;
+    padding-right: 35px;
+}
+.contact_h{
+    color: black;
+    font-size: 1.5rem;
+    padding-left: 55px;
+    border-right: 3px solid black;
+    padding-right: 35px;
+    
+}
+.footer{
+    margin-top: 350px;
+    padding: 24px 0;
+    color: rgba(0,0,0,0.99);
+    text-align: center;
+    background: cyan;
+    font-family: 'Flamenco', cursive;
+    font-size: 18px;
+}

@@ -1,0 +1,149 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 30px;
+    overflow-x: hidden;
+    color: black;
+    font-family: 'Flamenco', cursive;
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(image/.jpg);
+    height: 130vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-pills{
+    display: flex; 
+    /* border: 2px solid rgb(17, 17, 17); */
+    padding: 13px 7px 17px 400px;
+    text-align: center;
+    background: #27302a;
+    /* position: fixed; */
+ }
+ .nav-item{
+     flex-direction: column;
+     padding: 11px 14px;
+     margin-left: 70px;
+     /* border: 2px solid green; */
+     list-style-type: none;   
+     
+ }
+ .nav-item a{
+     list-style-type: none;
+     font-size: 1.9rem;
+     /* border: 2px solid red; */
+     text-decoration: none;
+     font-weight: 700;
+     color: #fff;
+ }
+ .active{
+     background: green;
+     border-radius: 10px;
+ }
+h3{
+    margin-left: 600px;
+    margin-top: 10px;
+}
+
+
+.main-content-header a{
+    text-decoration: none;
+    color: red;
+}
+.main-content-header a:hover{
+    text-decoration: none;
+    color: rgb(3, 70, 8);
+}
+
+
+h1{
+    font-family: bold;
+    color: #0066ff;
+    padding-top: 2rem;
+    text-shadow:  #000 0px 0px 2px,   #000 0px 0px 2px,   #000 0px 0px 2px;
+    padding-bottom: 2rem;
+}
+.table1 th{
+    color: black;
+    font-size: 2rem;
+   
+    padding-left: 1rem;
+}
+.table1 input{
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+}
+.box{
+    height: 1.8rem;
+    width: 8rem;
+}
+.class {
+    width: 8rem;
+    height: 2.5rem;
+   
+}
+.submit{
+    width: 9rem;
+    height: 3rem;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.submit:hover{
+    background-color: rgba(0,0,0,0.99);
+    color: #fff;
+}
+.student_class{
+  padding-left: 50px;
+  color: black;
+ border-bottom: 3px solid black;
+  
+}
+
+.table1{
+    margin-left: 400px;  
+}
+.table2{
+    margin-left: 250px;
+    font-size: 30px;
+    margin-top:50px;
+    border-top:3px solid black;   
+}
+
+.student_class2{
+    border: 3px solid black;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    padding: 8px 10px;
+    
+    
+}
+/*border line*/
+.student_id{
+    border-left: 3px solid black;
+    color: black;
+    border-bottom: 3px solid black;
+}
+.student_edit{
+    border-right: 3px solid black;
+    color: black;
+    border-bottom: 3px solid black;
+    
+}
+
+.footer{
+    margin-top: 400px;
+    padding: 24px 0;
+    text-align: center;
+    color: rgba(0,0,0,0.99);
+    background: cyan;
+    font-family: 'Flamenco', cursive;
+    font-size: 18px;
+}
